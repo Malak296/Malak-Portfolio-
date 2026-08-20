@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  color: #f43f5e !important;
+  transform: scale(0.6);
+  background: rgba(255, 255, 255, 0.9);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background: #f43f5e !important;
+}
